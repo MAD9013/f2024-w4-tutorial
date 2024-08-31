@@ -1,0 +1,179 @@
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../fonts/NotoSans-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../fonts/NotoSans-Italic.ttf");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../fonts/NotoSans-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../fonts/NotoSans-BoldItalic.ttf");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Noto Serif";
+  src: url("../fonts/NotoSerif-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Serif";
+  src: url("../fonts/NotoSerif-Italic.ttf");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Noto Serif";
+  src: url("../fonts/NotoSerif-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Serif";
+  src: url("../fonts/NotoSerif-SemiBoldItalic.ttf");
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* ---------- Typography ---------- */
+
+html {
+  font-family: "Noto Sans", serif;
+  line-height: 1.5;
+}
+
+h1,
+.heading-1 {
+  font-size: 1.802rem;
+  font-family: "Noto Serif", serif;
+  line-height: 1.1;
+}
+
+h2,
+.heading-2 {
+  font-size: 1.602rem;
+  font-family: "Noto Serif", serif;
+  line-height: 1.2;
+}
+
+h3,
+.heading-3 {
+  font-size: 1.424rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.3;
+  color: #387bb2;
+}
+
+h4,
+.heading-4 {
+  font-size: 1.266rem;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+h5,
+.heading-5 {
+  font-size: 1.125rem;
+  border-bottom: 0.0625rem solid #387bb2;
+}
+
+h6 {
+  font-size: 1rem;
+  font-family: "Noto Serif", serif;
+}
+
+small,
+.text_small {
+  font-size: 0.889rem;
+}
+
+@media only screen and (min-width: 45em) {
+  html {
+    font-size: 110%;
+  }
+
+  h1,
+  .heading-1 {
+    font-size: 3.052rem;
+  }
+
+  h2,
+  .heading-2 {
+    font-size: 2.441rem;
+  }
+
+  h3,
+  .heading-3 {
+    font-size: 1.953rem;
+  }
+
+  h4,
+  .heading-4 {
+    font-size: 1.563rem;
+  }
+
+  h5,
+  .heading-5 {
+    font-size: 1.25rem;
+  }
+
+  small,
+  .text_small {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  html {
+    font-size: 120%;
+  }
+
+  h1,
+  .heading-1 {
+    font-size: 4.209rem;
+  }
+
+  h2,
+  .heading-2 {
+    font-size: 3.157rem;
+  }
+
+  h3,
+  .heading-3 {
+    font-size: 2.369rem;
+  }
+
+  h4,
+  .heading-4 {
+    font-size: 1.777rem;
+  }
+
+  h5,
+  .heading-5 {
+    font-size: 1.333rem;
+  }
+
+  small,
+  .text_small {
+    font-size: 0.75rem;
+  }
+}

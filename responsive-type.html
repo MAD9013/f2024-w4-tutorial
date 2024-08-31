@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Ensures that the text characters are displayed properly -->
+    <meta charset="UTF-8" />
+
+    <!-- Properly sizes content across different browser window sizes -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--
+      The site title displayed in the browser tab.
+      Also used for Search Engine Optimization (SEO),
+      Google results, and accessibility tools/screen readers.
+    -->
+    <title>Responsive Type | W4 - Responsive Design</title>
+
+    <!-- Loads custom supporting CSS stylesheet(s) -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/containers-complete.css" />
+
+    <!-- Loads lesson specific CSS stylesheet -->
+    <link rel="stylesheet" href="./css/responsive-type.css" />
+
+    <!-- Loads Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" />
+  </head>
+  <body id="page">
+    <!--
+      Accessibility feature that allows users to
+      quickly skip to key areas on the page.
+    -->
+    <ul class="skip-links">
+      <li>
+        <a class="skip-links__link" href="#nav">Skip to site navigation</a>
+      </li>
+      <li>
+        <a class="skip-links__link" href="#main">Skip to main content</a>
+      </li>
+    </ul>
+
+    <!--
+      Main site header. Features our site logo and navigation.
+    -->
+    <header class="navbar">
+      <div class="container">
+        <strong class="navbar__headline">
+          <a href="/" class="navbar__logo">
+            <span class="navbar__week">Week 4</span>
+            <span class="navbar__title">Responsive Design</span>
+          </a>
+        </strong>
+        <button
+          class="navbar__toggle"
+          aria-label="Click to open mobile navigation"
+        >
+          <span class="navbar__tog navbar__tog--top"></span>
+          <span class="navbar__tog navbar__tog--middle"></span>
+          <span class="navbar__tog navbar__tog--bottom"></span>
+        </button>
+        <nav id="nav" class="navbar__nav">
+          <ul class="navbar__list">
+            <li>
+              <a href="./containers.html" class="navbar__link">Containers</a>
+            </li>
+            <li>
+              <a href="./media-queries.html" class="navbar__link">
+                Media Queries
+              </a>
+            </li>
+            <li>
+              <a href="./stylesheet.html" class="navbar__link"> Stylesheet </a>
+            </li>
+            <li>
+              <a
+                href="./responsive-type.html"
+                class="navbar__link"
+                aria-current="page"
+              >
+                Responsive Type
+              </a>
+            </li>
+            <li>
+              <a href="./fluid-type.html" class="navbar__link"> Fluid Type </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!--
+      The main contains ALL of the content unique to this page.
+      Every page MUST have exactly one `main` that is a direct child of `body`.
+    -->
+    <main id="main">
+      <!-- 
+        ====================================================
+        ============== TUTORIAL CONTENT START ==============
+        ====================================================
+      -->
+
+      <header class="banner">
+        <div class="container">
+          <div class="container--text">
+            <h1 class="banner__headline">Responsive Type</h1>
+            <div class="banner__byline">
+              <p>
+                Lets make our typography responsive to make sure it creates good
+                hierarchy and content organization on our web pages.
+              </p>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section>
+        <div class="container">
+          <div class="container--text">
+            <h2>Heading</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum quisquam, magnam ad quis molestias ut excepturi ab
+              nulla ullam consequuntur recusandae ipsa impedit ipsam, eius quae
+              doloremque! Provident, dolorum blanditiis.
+            </p>
+            <h3>Heading</h3>
+            <p>
+              Porro iste, fuga nemo perferendis amet maiores earum quisquam
+              fugiat deserunt dignissimos aspernatur asperiores unde ut saepe
+              commodi ipsa magnam? Eum veniam excepturi perferendis pariatur
+              incidunt assumenda sit nostrum laudantium.
+            </p>
+            <h3>Heading</h3>
+            <p>
+              Reprehenderit sunt dolorum nostrum provident quaerat! Dignissimos
+              quibusdam facere voluptate magni quis officiis voluptas aliquid
+              cumque nihil ipsa eaque expedita, aut iste quos harum voluptates
+              soluta sint, iure laborum tempore!
+            </p>
+            <h4>Heading</h4>
+            <p>
+              Reprehenderit sunt dolorum nostrum provident quaerat! Dignissimos
+              quibusdam facere voluptate magni quis officiis voluptas aliquid
+              cumque nihil ipsa eaque expedita, aut iste quos harum voluptates
+              soluta sint, iure laborum tempore!
+            </p>
+            <h4>Heading</h4>
+            <p>
+              Reprehenderit sunt dolorum nostrum provident quaerat! Dignissimos
+              quibusdam facere voluptate magni quis officiis voluptas aliquid
+              cumque nihil ipsa eaque expedita, aut iste quos harum voluptates
+              soluta sint, iure laborum tempore!
+            </p>
+            <h4>Heading</h4>
+            <p>
+              Reprehenderit sunt dolorum nostrum provident quaerat! Dignissimos
+              quibusdam facere voluptate magni quis officiis voluptas aliquid
+              cumque nihil ipsa eaque expedita, aut iste quos harum voluptates
+              soluta sint, iure laborum tempore!
+            </p>
+            <h3>Heading</h3>
+            <p>
+              Tempore in obcaecati earum aliquam doloremque. Nobis fugiat
+              accusantium totam laboriosam commodi nesciunt quasi natus enim ab
+              id veniam dignissimos itaque repudiandae ipsam architecto
+              reprehenderit, sed alias inventore quia doloribus!
+            </p>
+            <h2>Heading</h2>
+            <p>
+              Maxime at animi saepe id esse quo, quod magnam molestiae
+              doloribus! Molestiae voluptates alias tempore atque deserunt
+              nobis, est tempora, veritatis nisi ex saepe! Illum sint ipsum
+              vitae tenetur nisi.
+            </p>
+            <h3>Heading</h3>
+            <p>
+              Porro iste, fuga nemo perferendis amet maiores earum quisquam
+              fugiat deserunt dignissimos aspernatur asperiores unde ut saepe
+              commodi ipsa magnam? Eum veniam excepturi perferendis pariatur
+              incidunt assumenda sit nostrum laudantium.
+            </p>
+            <h4>Heading</h4>
+            <p>
+              Porro iste, fuga nemo perferendis amet maiores earum quisquam
+              fugiat deserunt dignissimos aspernatur asperiores unde ut saepe
+              commodi ipsa magnam? Eum veniam excepturi perferendis pariatur
+              incidunt assumenda sit nostrum laudantium.
+            </p>
+            <h3>Heading</h3>
+            <p>
+              Reprehenderit sunt dolorum nostrum provident quaerat! Dignissimos
+              quibusdam facere voluptate magni quis officiis voluptas aliquid
+              cumque nihil ipsa eaque expedita, aut iste quos harum voluptates
+              soluta sint, iure laborum tempore!
+            </p>
+            <h3>Heading</h3>
+            <p>
+              Tempore in obcaecati earum aliquam doloremque. Nobis fugiat
+              accusantium totam laboriosam commodi nesciunt quasi natus enim ab
+              id veniam dignissimos itaque repudiandae ipsam architecto
+              reprehenderit, sed alias inventore quia doloribus!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 
+        ====================================================
+        =============== TUTORIAL CONTENT END ===============
+        ====================================================
+      -->
+    </main>
+
+    <!--
+      Site footer. Contains site logo and legal info.
+      
+      Could also contain other concluding information such
+      as repeating the navigation, contact info, and more.
+    -->
+    <footer class="footer">
+      <div class="container container--grid">
+        <div class="footer__column">
+          <a href="/" class="footer__logo">
+            <span class="footer__week">Week 4</span>
+            <span class="footer__title">Responsive Design</span>
+          </a>
+        </div>
+
+        <div class="footer__column footer__column--legal">
+          <small>
+            Created for
+            <a href="https://mad9013.github.io/F2023/">MAD9013 course</a> and
+            free for any use.
+          </small>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Accessibility feature: return to top button -->
+    <a href="#page" class="to-top">To Top</a>
+
+    <!--
+      Adds a layer when the mobile navigation is open that
+      allows users to click to the side and auto close the nav
+    -->
+    <div class="click-to-close"></div>
+
+    <!-- Loads custom JavaScript file -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>

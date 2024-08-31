@@ -1,0 +1,51 @@
+/* ---------- min-width ---------- */
+
+.mq-box-width {
+  color: #23272e;
+  border: 0.25rem solid #97c278;
+  background-color: #c6e3b0;
+}
+
+.mq-box-width .medium,
+.mq-box-width .large {
+  display: none;
+}
+
+/* ---------- min-height ---------- */
+
+.mq-box-height {
+  color: #23272e;
+  border: 0.25rem solid #97c278;
+  background-color: #c6e3b0;
+}
+
+.mq-box-height .medium,
+.mq-box-height .large {
+  display: none;
+}
+
+/* ---------- orientation ---------- */
+
+.mq-box-orientation {
+  color: #23272e;
+  border: 0.25rem solid #97c278;
+  background-color: #c6e3b0;
+}
+
+.mq-box-orientation .portrait {
+  display: none;
+}
+
+/* ---------- prefers-color-scheme AKA dark/light mode ---------- */
+
+.mq-box-prefers-color-scheme {
+  color: #23272e;
+  border: 0.25rem solid #97c278;
+  background-color: #c6e3b0;
+}
+
+.mq-box-prefers-color-scheme .dark {
+  display: none;
+}
+
+/* ---------- Print ---------- */

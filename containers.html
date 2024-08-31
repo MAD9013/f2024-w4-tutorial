@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Ensures that the text characters are displayed properly -->
+    <meta charset="UTF-8" />
+
+    <!-- Properly sizes content across different browser window sizes -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--
+      The site title displayed in the browser tab.
+      Also used for Search Engine Optimization (SEO),
+      Google results, and accessibility tools/screen readers.
+    -->
+    <title>Containers | W4 - Responsive Design</title>
+
+    <!-- Loads custom supporting CSS stylesheet(s) -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/responsive-type-complete.css" />
+
+    <!-- Loads lesson specific CSS stylesheet -->
+    <link rel="stylesheet" href="./css/containers.css" />
+
+    <!-- Loads fonts from Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif:ital,wght@0,400;0,600;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Loads Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" />
+  </head>
+  <body id="page">
+    <!--
+      Accessibility feature that allows users to
+      quickly skip to key areas on the page.
+    -->
+    <ul class="skip-links">
+      <li>
+        <a class="skip-links__link" href="#nav">Skip to site navigation</a>
+      </li>
+      <li>
+        <a class="skip-links__link" href="#main">Skip to main content</a>
+      </li>
+    </ul>
+
+    <!--
+      Main site header. Features our site logo and navigation.
+    -->
+    <header class="navbar">
+      <div class="container">
+        <strong class="navbar__headline">
+          <a href="/" class="navbar__logo">
+            <span class="navbar__week">Week 4</span>
+            <span class="navbar__title">Responsive Design</span>
+          </a>
+        </strong>
+        <button
+          class="navbar__toggle"
+          aria-label="Click to open mobile navigation"
+        >
+          <span class="navbar__tog navbar__tog--top"></span>
+          <span class="navbar__tog navbar__tog--middle"></span>
+          <span class="navbar__tog navbar__tog--bottom"></span>
+        </button>
+        <nav id="nav" class="navbar__nav">
+          <ul class="navbar__list">
+            <li>
+              <a
+                href="./containers.html"
+                class="navbar__link"
+                aria-current="page"
+              >
+                Containers
+              </a>
+            </li>
+            <li>
+              <a href="./media-queries.html" class="navbar__link">
+                Media Queries
+              </a>
+            </li>
+            <li>
+              <a href="./stylesheet.html" class="navbar__link"> Stylesheet </a>
+            </li>
+            <li>
+              <a href="./responsive-type.html" class="navbar__link">
+                Responsive Type
+              </a>
+            </li>
+            <li>
+              <a href="./fluid-type.html" class="navbar__link"> Fluid Type </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!--
+      The main contains ALL of the content unique to this page.
+      Every page MUST have exactly one `main` that is a direct child of `body`.
+    -->
+    <main id="main">
+      <!-- 
+        ====================================================
+        ============== TUTORIAL CONTENT START ==============
+        ====================================================
+      -->
+
+      <header class="banner">
+        <h1 class="banner__headline">Containers</h1>
+        <div class="banner__byline">
+          <p>
+            Consistent containers are important to help improve alignment,
+            readability, and organization of content.
+          </p>
+        </div>
+      </header>
+
+      <section class="cool-fish">
+        <h2>Cool Fish</h2>
+        <ul class="fish-list">
+          <li>
+            <figure>
+              <img src="./images/fish-green.jpg" alt="" />
+              <figcaption>A green fish swimming</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="./images/fish-pink.jpg" alt="" />
+              <figcaption>A pink fish swimming</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="./images/fish-orange.jpg" alt="" />
+              <figcaption>A orange fish swimming</figcaption>
+            </figure>
+          </li>
+        </ul>
+      </section>
+
+      <section class="get-fish">
+        <div>
+          <img src="./images/fish-multi.jpg" alt="A group of fish swimming" />
+          <div class="get-fish-content">
+            <h2>Get your own fish!</h2>
+            <p>
+              Wobbegong shark peaclam swimming. Quagga mussel grey whale mermaid
+              appeared. Wobbegong shark peaclam swimming. Manta ray with
+              lionfish ect.
+            </p>
+            <a href="#" class="btn">Learn more</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="fish-facts">
+        <h2>Important fish facts!</h2>
+        <p>
+          Wabash pigtoe ear snail starfish, at hawkfish pebblesnail batfish
+          crab. Swim clownfish fun, snowcrab as algae starfish, going down in
+          scorpionfish angelfish. Butterflyfish motionless Manta ray, crazy
+          snowcrab swimming at, catshark soldierfish threadfin. Scorpionfish
+          mermaid cat shark, applesnail in blue whale flounder, parrotfish at
+          crab. Foxface wabash pigtoe, ear snail banded sole or, mermaid in sea.
+          Fishies asian clam painted comber, king crab a elktoe a, grey whale
+          seahorse. Foxface wabash pigtoe, ear snail bande.
+        </p>
+
+        <p>
+          Sole or, mermaid in sea. Batfish bonnethead tilefish Banana wrasse
+          papershell coral hogfish. Parrotfish at crazy houndshark with pipefish
+          snake eel. Spot hogfish banded grunt, mystery snail happy flounder.
+          Wobbegong shark peaclam swimming. Quagga mussel grey whale mermaid
+          appeared. Wobbegong shark peaclam swimming. Manta ray with lionfish
+          ect. Wobbegong shark blue whale gold damsel faucet snail, in snake eel
+          sea coral grouper. Parrotfish at crazy houndshark with pipefish snake
+          eel. Angelfis.
+        </p>
+
+        <p>
+          Love, applesnail Snaggletooth shark octopus bannerfish, beautiful
+          Bursa trigger monster captive, a fishbowl possession cat shark at
+          parrotfish. Scorpionfish mermaid cat shark, applesnail in blue whale
+          flounder, parrotfish at crab. Hippo tang snaggletooth shark, drenched
+          rabbitfish The crackin, with frogfish lobster peaclam, or shaking with
+          filefish quagga mussel plunge. Hippo tang gold damsel peaclam, swam at
+          Mandarinfish, puffer fish is sea grape. Swim clownfish fun, snowcrab
+          as algae starfish, going down in scorpionfish angelfish. Foxface
+          Painted combe.
+        </p>
+        <a href="#" class="btn">Learn more</a>
+      </section>
+
+      <!-- 
+        ====================================================
+        =============== TUTORIAL CONTENT END ===============
+        ====================================================
+      -->
+    </main>
+
+    <!--
+      Site footer. Contains site logo and legal info.
+      
+      Could also contain other concluding information such
+      as repeating the navigation, contact info, and more.
+    -->
+    <footer class="footer">
+      <div class="container container--grid">
+        <div class="footer__column">
+          <a href="/" class="footer__logo">
+            <span class="footer__week">Week 4</span>
+            <span class="footer__title">Responsive Design</span>
+          </a>
+        </div>
+
+        <div class="footer__column footer__column--legal">
+          <small>
+            Created for
+            <a href="https://mad9013.github.io/F2023/">MAD9013 course</a> and
+            free for any use.
+          </small>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Accessibility feature: return to top button -->
+    <a href="#page" class="to-top">To Top</a>
+
+    <!--
+      Adds a layer when the mobile navigation is open that
+      allows users to click to the side and auto close the nav
+    -->
+    <div class="click-to-close"></div>
+
+    <!-- Loads custom JavaScript file -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>

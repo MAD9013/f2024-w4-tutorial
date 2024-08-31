@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Ensures that the text characters are displayed properly -->
+    <meta charset="UTF-8" />
+
+    <!-- Properly sizes content across different browser window sizes -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--
+      The site title displayed in the browser tab.
+      Also used for Search Engine Optimization (SEO),
+      Google results, and accessibility tools/screen readers.
+    -->
+    <title>Stylesheets | W4 - Responsive Design</title>
+
+    <!-- Loads custom supporting CSS stylesheet(s) -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/containers-complete.css" />
+
+    <!-- Loads lesson specific CSS stylesheet -->
+    <link rel="stylesheet" href="./css/responsive-type.css" />
+
+    <!-- Loads Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" />
+  </head>
+  <body id="page">
+    <!--
+      Accessibility feature that allows users to
+      quickly skip to key areas on the page.
+    -->
+    <ul class="skip-links">
+      <li>
+        <a class="skip-links__link" href="#nav">Skip to site navigation</a>
+      </li>
+      <li>
+        <a class="skip-links__link" href="#main">Skip to main content</a>
+      </li>
+    </ul>
+
+    <!--
+      Main site header. Features our site logo and navigation.
+    -->
+    <header class="navbar">
+      <div class="container">
+        <strong class="navbar__headline">
+          <a href="/" class="navbar__logo">
+            <span class="navbar__week">Week 4</span>
+            <span class="navbar__title">Responsive Design</span>
+          </a>
+        </strong>
+        <button
+          class="navbar__toggle"
+          aria-label="Click to open mobile navigation"
+        >
+          <span class="navbar__tog navbar__tog--top"></span>
+          <span class="navbar__tog navbar__tog--middle"></span>
+          <span class="navbar__tog navbar__tog--bottom"></span>
+        </button>
+        <nav id="nav" class="navbar__nav">
+          <ul class="navbar__list">
+            <li>
+              <a href="./containers.html" class="navbar__link">Containers</a>
+            </li>
+            <li>
+              <a href="./media-queries.html" class="navbar__link">
+                Media Queries
+              </a>
+            </li>
+            <li>
+              <a
+                href="./stylesheet.html"
+                class="navbar__link"
+                aria-current="page"
+              >
+                Stylesheet
+              </a>
+            </li>
+            <li>
+              <a href="./responsive-type.html" class="navbar__link">
+                Responsive Type
+              </a>
+            </li>
+            <li>
+              <a href="./fluid-type.html" class="navbar__link"> Fluid Type </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!--
+      The main contains ALL of the content unique to this page.
+      Every page MUST have exactly one `main` that is a direct child of `body`.
+    -->
+    <main id="main">
+      <header class="banner">
+        <div class="container">
+          <div class="container--text">
+            <h1 class="banner__headline">Stylesheets</h1>
+            <div class="banner__byline">
+              <p>
+                A stylesheet is a good way to test out and create a reference
+                for site wide styles. The simplest will cover basics such as
+                typography, but more complex stylesheets can turn into full
+                pattern libraries and style guides, which cover design patterns
+                like buttons, cards, navigation, etc.
+              </p>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- 
+        ====================================================
+        ============== TUTORIAL CONTENT START ==============
+        ====================================================
+      -->
+
+      <section>
+        <div class="container">
+          <div class="container--text">
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+            <p>
+              Lorem ipsum, dolor sit
+              <a href="#">amet consectetur</a> adipisicing elit. Nobis velit
+              praesentium asperiores, corporis repudiandae eligendi laudantium
+              adipisci possimus nihil consequatur rerum illum voluptas sunt
+              delectus ut incidunt, distinctio deleniti odio neque harum? Facere
+              beatae quibusdam commodi quo rem pariatur velit?
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 
+        ====================================================
+        =============== TUTORIAL CONTENT END ===============
+        ====================================================
+      -->
+    </main>
+
+    <aside>
+      <div class="container">
+        <div class="container--text">
+          <h2>What is Type Hierarchy?</h2>
+          <p>
+            Type hierarchy is how we organize our content through the structure
+            and design of our type. Strong type hierarchy makes it easy to read,
+            understand, and navigate through our page content.
+          </p>
+          <p>
+            At its simplest, good type hierarchy has strong design for the
+            different heading levels, making them easy to distinguish between.
+            With good headings, you can quickly scan through the page and see
+            what content is grouped and how it relates to each other.
+          </p>
+          <p>
+            On the web, good type hierarchy has two basic steps to be
+            successful. The first is to implement proper
+            <code>html</code> heading structure (<code>h1</code>,
+            <code>h2</code>, <code>h3</code>, etc.). This provides the
+            foundation and has positive benefits for SEO and accessibility. It
+            also lays the ground work for easily implementing heading design
+            styles. Once your <code>html</code> heading structure is correct,
+            the next step is to map your heading styles to the appropriate tags.
+            If your <code>html</code> structure is strong, you should be good to
+            go!
+          </p>
+        </div>
+      </div>
+    </aside>
+    <!--
+      Site footer. Contains site logo and legal info.
+      
+      Could also contain other concluding information such
+      as repeating the navigation, contact info, and more.
+    -->
+    <footer class="footer">
+      <div class="container container--grid">
+        <div class="footer__column">
+          <a href="/" class="footer__logo">
+            <span class="footer__week">Week 4</span>
+            <span class="footer__title">Responsive Design</span>
+          </a>
+        </div>
+
+        <div class="footer__column footer__column--legal">
+          <small>
+            Created for
+            <a href="https://mad9013.github.io/F2023/">MAD9013 course</a> and
+            free for any use.
+          </small>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Accessibility feature: return to top button -->
+    <a href="#page" class="to-top">To Top</a>
+
+    <!--
+      Adds a layer when the mobile navigation is open that
+      allows users to click to the side and auto close the nav
+    -->
+    <div class="click-to-close"></div>
+
+    <!-- Loads custom JavaScript file -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>

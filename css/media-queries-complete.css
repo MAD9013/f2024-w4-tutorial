@@ -1,0 +1,161 @@
+/* ---------- min-width ---------- */
+
+.mq-box-width {
+  color: #23272e;
+  border: 0.25rem solid #97c278;
+  background-color: #c6e3b0;
+}
+
+.mq-box-width .medium,
+.mq-box-width .large {
+  display: none;
+}
+
+@media only screen and (min-width: 45em) {
+  .mq-box-width {
+    color: #fff;
+    border-color: #2c6593;
+    background-color: #387bb2;
+  }
+
+  .mq-box-width .small {
+    display: none;
+  }
+
+  .mq-box-width .medium {
+    display: inline;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .mq-box-width {
+    color: #23272e;
+    border-color: #a94c54;
+    background-color: #d86972;
+  }
+
+  .mq-box-width .medium {
+    display: none;
+  }
+
+  .mq-box-width .large {
+    display: inline;
+  }
+}
+
+/* ---------- min-height ---------- */
+
+.mq-box-height {
+  color: #23272e;
+  border: 0.25rem solid #97c278;
+  background-color: #c6e3b0;
+}
+
+.mq-box-height .medium,
+.mq-box-height .large {
+  display: none;
+}
+
+@media only screen and (min-height: 30em) {
+  .mq-box-height {
+    color: #fff;
+    border-color: #2c6593;
+    background-color: #387bb2;
+  }
+
+  .mq-box-height .small {
+    display: none;
+  }
+
+  .mq-box-height .medium {
+    display: inline;
+  }
+}
+
+@media only screen and (min-height: 50em) {
+  .mq-box-height {
+    color: #23272e;
+    border-color: #a94c54;
+    background-color: #d86972;
+  }
+
+  .mq-box-height .medium {
+    display: none;
+  }
+
+  .mq-box-height .large {
+    display: inline;
+  }
+}
+
+/* ---------- orientation ---------- */
+
+.mq-box-orientation {
+  color: #23272e;
+  border: 0.25rem solid #97c278;
+  background-color: #c6e3b0;
+}
+
+.mq-box-orientation .portrait {
+  display: none;
+}
+
+@media only screen and (orientation: portrait) {
+  .mq-box-orientation {
+    color: #fff;
+    border-color: #2c6593;
+    background-color: #387bb2;
+  }
+
+  .mq-box-orientation .landscape {
+    display: none;
+  }
+
+  .mq-box-orientation .portrait {
+    display: inline;
+  }
+}
+
+/* ---------- prefers-color-scheme AKA dark/light mode ---------- */
+
+.mq-box-prefers-color-scheme {
+  color: #23272e;
+  border: 0.25rem solid #97c278;
+  background-color: #c6e3b0;
+}
+
+.mq-box-prefers-color-scheme .dark {
+  display: none;
+}
+
+@media only screen and (prefers-color-scheme: dark) {
+  .mq-box-prefers-color-scheme {
+    color: #fff;
+    border-color: #21252c;
+    background-color: #23272e;
+  }
+
+  .mq-box-prefers-color-scheme .light {
+    display: none;
+  }
+
+  .mq-box-prefers-color-scheme .dark {
+    display: inline;
+  }
+
+  html {
+    background-color: #23272e;
+    color: #fff;
+  }
+}
+
+/* ---------- Print ---------- */
+
+@media print {
+  .navbar__toggle {
+    display: none;
+  }
+  .navbar__nav {
+    display: none;
+  }
+}
